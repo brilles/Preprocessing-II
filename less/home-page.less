@@ -1,6 +1,6 @@
 .home {
   @media @mobile {
-    width: 84%;
+    width: 90%;
   }
 
   .content-section {
@@ -28,9 +28,12 @@
 
       img {
         border-radius: 10px;
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
-    @media (max-width: 500px) {
+    @media @mobile {
       width: 100%;
     }
   }
@@ -47,18 +50,25 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @mobile {
+      width: 100%;
+    }
 
     img {
       border-radius: 10px;
-    }
-    @media @mobile {
-      width: 100%;
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 
@@ -76,7 +86,7 @@
       width: 30%;
       margin-bottom: 30px;
       @media @mobile {
-        width: 75%;
+        width: 83%;
       }
 
       .btn {
@@ -91,7 +101,7 @@
 
 header {
   @media @mobile {
-    width: 84%;
+    width: 90%;
   }
   margin: 2.2rem auto 0 auto;
   max-width: 800px;

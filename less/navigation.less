@@ -23,8 +23,15 @@
       color: black;
     }
 
+    a:last-of-type {
+      margin-right: 9%;
+      @media @mobile {
+        margin-right: 0;
+      }
+    }
+
     @media @mobile {
-      width: 90%;
+      width: 80%;
     }
   }
   h1 {
