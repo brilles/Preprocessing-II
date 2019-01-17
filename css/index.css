@@ -169,12 +169,12 @@ img {
   margin: 0 auto;
 }
 .navigation {
-  margin: 2.2rem auto;
-  max-width: 800px;
   margin: 2.2rem auto 0 auto;
+  max-width: 800px;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2.5rem;
 }
 .navigation nav {
   width: 40%;
@@ -186,6 +186,11 @@ img {
   margin-right: 9%;
   text-decoration: none;
   color: black;
+}
+.line {
+  margin: 0 auto;
+  width: 69%;
+  border-bottom: 2px dashed lightgray;
 }
 .footer {
   width: 100%;
@@ -256,12 +261,12 @@ img {
   align-items: center;
 }
 header {
-  margin: 2.2rem auto;
+  margin: 2.2rem auto 0 auto;
   max-width: 800px;
   width: 120%;
   flex-direction: column;
-  border-top: 2px dashed black;
   border-bottom: 2px dashed black;
+  margin-top: 0;
 }
 header h2 {
   margin: 2.2rem auto 0 auto;
