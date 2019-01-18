@@ -338,6 +338,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.home .content-pick .destination .btn:hover {
+  background-color: white;
+  color: #17a2b8;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
